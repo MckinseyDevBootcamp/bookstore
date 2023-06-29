@@ -7,7 +7,7 @@ public class GreetingControllerTest {
     @Test
     void shouldBeAbleToCreateGreetingController(){
         GreetingController greetingController = new GreetingController();
-        String expectedGreeting = "Hello, World";
+        String expectedGreeting = "Hello, World!";
         String actualGreeting = greetingController.getGreeting();
 
         assertEquals(expectedGreeting, actualGreeting);
